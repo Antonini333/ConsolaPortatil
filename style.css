@@ -1,17 +1,32 @@
-.body {
-	background:#4100a8;
-    width: 75em;
-	height:40em;
+.container {
+    display: flex;
+    flex-direction: row;
+    background:#4100a8;
+    width: 70em;
+	height:34em;
     border: 0.3em solid #000;
-    border-radius: 60px 60px 60px 60px;
+    border-radius: 50em;
 
 }
 
 .pantalla {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+}
+
+.pantalla1 {
+    width:19em;
+
+}
+
+.pantalla2 {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
     background-color: grey;
     width: 28em;
     height: 20em;
-    border: 3em solid black;
-    margin: 6em 5em 3em 20em;
-    border-radius: 60px 60px 60px 60px;
+    border: 0.4em solid black;
+    
 }
