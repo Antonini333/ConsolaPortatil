@@ -1,3 +1,4 @@
+/*CONTENEDOR FLEX*/
 .container {
     display: flex;
 flex-direction: column;
@@ -7,7 +8,10 @@ border: 0.3em solid #000;
 border-radius: 0.9em 0.9em 8em 0.9em;
 }
 
-.pantalla {
+
+/*CONTENEDORES PADRE*/
+
+#pantalla {
     display: flex;
 flex-direction: column;
 width: 24em;
@@ -16,6 +20,19 @@ border-radius: 0.563em 0.563em 2.5em 0.563em;
 border: 0.3em solid red;
 margin: 2.9em 2.9em 0em 2.9em;
 }
+
+#partemedia {
+    display:flex;
+    flex-wrap: wrap;
+}
+
+#parteinferior {
+    display:flex;
+    flex-wrap: wrap;
+}
+
+
+/*CONTENEDOR PANTALLA*/
 
 .pantalla1 {
         display: flex;
@@ -27,27 +44,15 @@ margin: 2.9em 2.9em 0em 2.9em;
     
 }
 
-.nintendo {
-    display:flex;
-    flex-direction: row;
-    width: 26em;
-    height: 10em:
-    border: 0.3em solid purple;
-}
-
-
 .logo {
     position: relative;
     top: -3em;
     left: 1.6em;
-    width:60%;
-    
+    width:60%;    
 }
 
-.parteinferior {
-    display:flex;
-    flex-wrap: wrap;
-}
+/*CONTENEDOR PARTE MEDIA*/
+
 .joystick {
 display: flex;
 flex-direction: row;
@@ -65,5 +70,30 @@ position: relative;
 top: -6em;
 width: 14.4em;
 height:11em;
+border: 0.3em solid green;
+}
+
+
+/*CONTENEDOR PARTE INFERIOR*/
+
+.selectstart {
+display: flex;
+flex-direction: row;
+position: relative;
+top: -6em;
+width: 18em;
+height:11em;
+border: 0.3em solid orangered;
+}
+
+.altavoz {
+display: flex ;
+flex-direction: row;
+position:relative;
+top: -6em;
+right: -1em;
+left: -0.1em;
+width: 10.8em;
+height:14em;
 border: 0.3em solid green;
 }
