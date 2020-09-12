@@ -1,3 +1,4 @@
+
 /*CONTENEDOR FLEX*/
 .container {
     display: flex;
@@ -6,6 +7,7 @@ width: 30em;
 height:50em;
 border: 0.3em solid #000;
 border-radius: 0.9em 0.9em 8em 0.9em;
+background-color: rgb(209, 199, 178);
 }
 
 
@@ -17,8 +19,9 @@ flex-direction: column;
 width: 24em;
 height:20em;
 border-radius: 0.563em 0.563em 2.5em 0.563em;
-border: 0.3em solid red;
+border: 0.2em solid rgb(47, 38, 54);
 margin: 2.9em 2.9em 0em 2.9em;
+background-color: rgb(100, 90, 112)
 }
 
 #partemedia {
@@ -40,7 +43,8 @@ margin: 2.9em 2.9em 0em 2.9em;
     width: 16em;
     height:16em;
     margin: 1.2em 3em 1em 3.8em;
-    border: 0.3em solid pink;
+    border: 0.4em solid rgb(56, 116, 48);
+    background-color: rgb(38, 167, 38);
     
 }
 
