@@ -26,3 +26,20 @@ margin: 2.9em 2.9em 0em 2.9em;
     border: 0.3em solid pink;
     
 }
+
+.nintendo {
+    display:flex;
+    flex-direction: row;
+    align-self: flex-start;
+    height: 8em;
+    width: 8em;
+    margin-bottom: 20em;
+}
+
+.logo {
+    position: relative;
+    top: -3em;
+    left: 1.6em;
+    width:60%;
+    
+}
