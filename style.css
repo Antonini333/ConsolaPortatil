@@ -33,7 +33,6 @@ background-color: rgb(100, 90, 112)
 #parteinferior {
     display:flex;
     flex-wrap: wrap wrap-reverse;
-    
 }
 
 
@@ -130,12 +129,12 @@ border: 0.3em ;
     flex-direction: row;
     position: relative;
     border: 0.3em solid rgb(190, 180, 154);;
-    right: 8.5em ;
-    bottom: 3.2em;
-    width: 3.2em;
+    left: 9.9em ;
+    top: 1em;
+    width: 3.8em;
     height: 0.6em;
     border-radius: 30em;
-    transform: rotate(-30deg);
+    transform: rotate(-28deg);
 background-color: rgb(197, 187, 166);
 box-shadow: inset 0.1em 0.1em 3em -1.2em  rgb(66, 66, 66);
 }
@@ -145,24 +144,75 @@ box-shadow: inset 0.1em 0.1em 3em -1.2em  rgb(66, 66, 66);
     flex-direction: row;
     position: relative;
     border: 0.3em solid rgb(190, 180, 154);;
-    right: 8.2em ;
-    bottom: 3.4em;
-    width: 3.2em;
+    left: 10em ;
+    top: 1em;
+    width: 3.8em;
     height: 0.6em;
     border-radius: 30em;
-    transform: rotate(-30.5deg);
+    transform: rotate(-28deg);
 background-color: rgb(197, 187, 166);
 box-shadow: inset 0.1em 0.1em 3em -1.2em  rgb(66, 66, 66);
 }
 
 .altavoz {
 display: flex ;
-flex-direction: row;
+flex-direction: flex-end;
 position:relative;
 top: -9em;
-left: -7.5em;
 border-radius: 0.9em 0.9em 8em 0.9em;
 width: 11.5em;
 height:12.8em;
-border: 0.3em solid green;
+border: 0.3em ;
+}
+
+#rejillas {
+    display: grid;
+    position: relative;
+    left: 2.5em;
+    height: 9em;
+    width: 8em;
+    top: 4em;
+    border-radius: 30em;
+    transform: rotate(60deg);
+}
+.rejilla1 {
+    background-color: grey;
+    border-radius: 30em;
+    width: 5.5em;
+    height: 0.7em;
+}
+
+.rejilla3 {
+    background-color: grey;
+    border-radius: 30em;
+    width: 5.5em;
+    height: 0.7em;
+}
+
+.rejilla5 {
+    background-color: grey;
+    border-radius: 30em;
+    width: 5.5em;
+    height: 0.7em;
+}
+
+.rejilla7 {
+    background-color: grey;
+    border-radius: 30em;
+    width: 5.5em;
+    height: 0.7em;
+}
+
+.rejilla9 {
+    background-color: grey;
+    border-radius: 30em;
+    width: 5.5em;
+    height: 0.7em;
+}
+
+.rejilla11 {
+    background-color: grey;
+    border-radius: 30em;
+    width: 5.5em;
+    height: 0.7em;
 }
