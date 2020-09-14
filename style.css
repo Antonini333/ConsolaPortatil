@@ -68,30 +68,20 @@ background-color: rgb(100, 90, 112)
 }
 
 .led {
-    display:flex;
+    
+    display: flex ;
     position: relative;
     height: 1em;
     width: 1em;
     border-radius: 50%;
     left: 1.4em;
     top: 6em;
-    background-color: slategrey;
+    background-color: rgb(61, 2, 2);
 }
 
-.led:hover {
-    display:flex;
-    position: relative;
-    height: 1em;
-    width: 1em;
-    border-radius: 50%;
-    left: 1.4em;
-    top: 6em;
-    background-color: red;
-}
 
-.led{
-    transition: color 0.8s linear 0.3s;
-}
+
+
 
 .button2 {
     display: flex;
@@ -278,7 +268,7 @@ border: 0.1em black;
     top: 3.6em;
 }
 
-.cruzYright: {
+.cruzYright {
     transition: color 0.8s linear 0.3s;
 }
 
