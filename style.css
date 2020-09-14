@@ -4,7 +4,7 @@
 #container {
     display: flex;
 flex-direction: column;
-position: center</div>;
+position: center;
 font-family: 'GameBoyFont';
 
 width: 30em;
@@ -56,6 +56,10 @@ background-color: rgb(100, 90, 112)
     
 }
 
+#gifpokemon{
+    display: none;
+}
+
 .battery {
     display:flex;
     position: relative;
@@ -63,15 +67,30 @@ background-color: rgb(100, 90, 112)
     top: 15em;
 }
 
-.button {
+.led {
     display:flex;
     position: relative;
     height: 1em;
     width: 1em;
     border-radius: 50%;
     left: 1.4em;
-    top: 7em;
-    background-color: rgb(114, 43, 43);
+    top: 6em;
+    background-color: slategrey;
+}
+
+.led:hover {
+    display:flex;
+    position: relative;
+    height: 1em;
+    width: 1em;
+    border-radius: 50%;
+    left: 1.4em;
+    top: 6em;
+    background-color: red;
+}
+
+.led{
+    transition: color 0.8s linear 0.3s;
 }
 
 .button2 {
