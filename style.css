@@ -7,7 +7,7 @@ flex-direction: column;
 position: relative;
 
 width: 30em;
-height:50em;
+height:53em;
 border: 0.3em inset rgb(189, 184, 194);
 border-radius: 0.9em 0.9em 8em 0.9em;
 background-color: rgb(209, 199, 178);
@@ -77,41 +77,87 @@ border: 0.1em black;
     flex-direction: row;
     position: relative;
     border: 0.3em solid rgb(190, 180, 154);;
-    top: 1.5em;
-    left: 1em;
+    top: 1.9em;
+    left: 1.6em;
     width: 10em;
     height: 10em;
     border-radius: 50%;
 background-color: rgb(197, 187, 166);
-box-shadow: inset 0.1em 0.1em 3em -1.2em  rgb(66, 66, 66);
+box-shadow: inset 2em 1em 3em -1.2em  rgb(128, 116, 80);
 
 }
 
 
-.cruzX {
+.cruzXup {
     display:flex;
     flex-direction: row;
     position: absolute;
-    border: 0.3em solid black;
+    border: 0.3em groove rgb(48, 46, 46);
+    border-radius: 12%;
     width: 2em;
-    height: 8em;
+    height: 3em;
     background-color: black;
-    left: 3.7em;
-    top: 0.7em;
+    box-shadow: inset 2em 1em 3em -1.2em  rgb(17, 16, 16);
+    left: 3.8em;
+    top: 0.3em;
 }
 
-.cruzY {
+.cruzXdown {
+    display:flex;
+    flex-direction: row;
+    position: absolute;
+    border: 0.3em groove rgb(48, 46, 46);
+    border-radius: 12%;
+    width: 2em;
+    height: 3em;
+    background-color: black;
+    box-shadow: inset 2em 1em 3em -1.2em  rgb(17, 16, 16);
+    left: 3.8em;
+    top: 5.8em;
+}
+
+.cruzcenter {
+    display:flex;
+    flex-direction: row;
+    position: absolute;
+    border-radius: 50%;
+    border: 0.750em ridge rgb(8, 8, 8);
+    width: 1.6em;
+    height: 1.6em;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 2em 1em 3em -1.2em  rgb(19, 18, 18);
+    left: 3.550em;
+    top: 3.4em;
+    z-index: 1;
+}
+
+.cruzYleft {
     display:flex;
     flex-direction: row;
     position: relative;
-    border: 0.3em solid black;
-    width: 8em;
+    border: 0.3em groove rgb(48, 46, 46);
+    border-radius: 12%;
+    width: 3em;
     height: 2em;
     background-color: black;
+    box-shadow: inset 2em 1em 3em -1.2em  rgb(17, 16, 16);
     left: 0.8em;
-    top: 3.7em;
+    top: 3.6em;
 }
 
+.cruzYright {
+    display:flex;
+    flex-direction: row;
+    position: relative;
+    border: 0.3em groove rgb(48, 46, 46);
+    border-radius: 12%;
+    width: 3em;
+    height: 2em;
+    background-color: black;
+    box-shadow: inset 2em 1em 3em -1.2em  rgb(17, 16, 16);
+    left: 2.3em;
+    top: 3.6em;
+}
 
 
 .botones {
@@ -129,39 +175,40 @@ border: 0.3em ;
     flex-direction: row;
     position: absolute;
     border: 0.3em solid rgb(190, 180, 154);;
-    top: 3.2em;
-    left: 3em;
+    top: 5em;
+    left: 4em;
     width: 10.6em;
     height: 5em;
     border-radius: 30em;
     transform: rotate(-28deg);
 background-color: rgb(197, 187, 166);
-box-shadow: inset 0.1em 0.1em 3em -1.2em  rgb(66, 66, 66);
+box-shadow: inset 2em 1em 3em -1.2em  rgb(61, 53, 30);
 }
 
 .botonA {
     display:flex;
     position: relative;
-    width: 4.4em;
-    height: 4.4em;
+    width: 3.6em;
+    height: 3.6em;
+    left: 0.4em;
+    top: 0.4em;
+    border: 0.28em inset rgb(143, 4, 62);
     border-radius: 50%;
     background-color: rgb(173, 28, 76);
-    box-shadow: inset 0.1em 0.1em 3em -1.2em  rgb(66, 66, 66);
-
-    top: 0.350em;
-    left: 0.45em;
+    box-shadow: inset 1em 3em 3em 0.1em  rgb(58, 25, 33);
 }
 
 .botonB {
     display:flex;
     position: relative;
-    width: 4.350em;
-    height: 4.350em;
+    width: 3.6em;
+    height: 3.6em;
+    border: 0.35em inset rgb(143, 4, 62);
     border-radius: 50%;
-    box-shadow: inset 0.1em 0.1em 3em -1.2em  rgb(66, 66, 66);
+    left: 1.8em;
+    top: 0.4em;
     background-color: rgb(173, 28, 76);
-    top: 0.350em;
-    left: 1.4em;
+    box-shadow: inset 1em 3em 3em 0.1em  rgb(58, 25, 33);
 }
 
 
@@ -171,7 +218,7 @@ box-shadow: inset 0.1em 0.1em 3em -1.2em  rgb(66, 66, 66);
 display: flex ;
 flex-direction:row;
 position: relative;
-top: -6em;
+top: -3em;
 width: 18em;
 height:11em;
 border: 0.3em ;
@@ -184,8 +231,8 @@ border: 0.3em ;
     border: 0.3em inset rgb(163, 158, 144);
     left: 9.9em ;
     top: 1em;
-    width: 3.8em;
-    height: 0.6em;
+    width: 3.2em;
+    height: 0.540em;
     border-radius: 30em;
     transform: rotate(-28deg);
     background-color: rgb(197, 187, 166);
@@ -196,10 +243,10 @@ border: 0.3em ;
     flex-direction: row;
     position: relative;
     border: 0.3em inset rgb(163, 158, 144);
-    left: 10em ;
+    left: 10.3em ;
     top: 1em;
-    width: 3.8em;
-    height: 0.6em;
+    width: 3.2em;
+    height: 0.540em;
     border-radius: 30em;
     transform: rotate(-28deg);
 background-color: rgb(197, 187, 166);
@@ -223,7 +270,7 @@ border: 0.3em ;
     left: 2.5em;
     height: 9em;
     width: 8em;
-    top: 4em;
+    top: 6em;
     border-radius: 30em;
     transform: rotate(60deg);
 }
