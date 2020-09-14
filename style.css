@@ -1,10 +1,11 @@
-
+@font-face {font-family: "GameBoyFont";    src: url(Early%20GameBoy%20Regular.woff); }
 
 /*CONTENEDOR FLEX*/
 #container {
     display: flex;
 flex-direction: column;
 position: relative;
+font-family: 'GameBoyFont';
 
 width: 30em;
 height:53em;
@@ -198,6 +199,8 @@ box-shadow: inset 2em 1em 3em -1.2em  rgb(61, 53, 30);
     box-shadow: inset 1em 3em 3em 0.1em  rgb(58, 25, 33);
 }
 
+
+
 .botonB {
     display:flex;
     position: relative;
@@ -211,6 +214,32 @@ box-shadow: inset 2em 1em 3em -1.2em  rgb(61, 53, 30);
     box-shadow: inset 1em 3em 3em 0.1em  rgb(58, 25, 33);
 }
 
+.textobotones {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    top: 5.6em;
+    right: 1.5em;
+    
+    z-index: 1;
+}
+
+.botonBtext {
+
+    display: flex;
+    position: relative;
+    right: 5em;
+    
+}
+
+.botonAtext {
+
+    display: flex;
+    position: relative;
+    right: 0.4em;
+    
+}
+
 
 /*CONTENEDOR PARTE INFERIOR*/
 
@@ -218,10 +247,11 @@ box-shadow: inset 2em 1em 3em -1.2em  rgb(61, 53, 30);
 display: flex ;
 flex-direction:row;
 position: relative;
-top: -3em;
+top: -4em;
 width: 18em;
 height:11em;
 border: 0.3em ;
+
 }
 
 .select {
@@ -244,13 +274,34 @@ border: 0.3em ;
     position: relative;
     border: 0.3em inset rgb(163, 158, 144);
     left: 10.3em ;
-    top: 1em;
+    top: 1.2em;
     width: 3.2em;
     height: 0.540em;
     border-radius: 30em;
     transform: rotate(-28deg);
 background-color: rgb(197, 187, 166);
 box-shadow: inset 2em 1.5em 4em -1em  rgb(0, 0, 0);
+}
+
+.starttext {
+    display: flex ;
+    flex-direction:row;
+    position: relative;
+    font-size: 0.8em;
+    transform: rotate(-28.6deg);
+    right: 4.2em;
+    bottom: 3.7em;
+}
+
+.selecttext {
+
+    display: flex ;
+    flex-direction:row;
+    position: relative;
+    font-size: 0.8em;
+    transform: rotate(-28.6deg);
+    right: 10em;
+    bottom: 2.4em;
 }
 
 .altavoz {
@@ -267,7 +318,7 @@ border: 0.3em ;
 #rejillas {
     display: grid;
     position: relative;
-    left: 2.5em;
+    right: 2.2em;
     height: 9em;
     width: 8em;
     top: 6em;
